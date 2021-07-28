@@ -1,0 +1,19 @@
+[username]
+show_always = true
+format = "[$user]($style)@"
+style_user = "bold green"
+
+[hostname]
+ssh_only = false
+format = "[$hostname]($style):"
+style = "bold {{ .hostname_color }}"
+
+# [directory]
+# format = "[$path]($style)[$read_only]($read_only_style)"
+
+[line_break]
+disabled = true
+
+[character]                            # The name of the module we are configuring is "character"
+success_symbol = '[\$](bold green)'    # The "success_symbol" segment is being set to "➜" with the color "bold green"
+error_symbol = '[\$](bold red)'    # The "success_symbol" segment is being set to "➜" with the color "bold green"
