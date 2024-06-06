@@ -146,7 +146,6 @@ set ruler
 set number
 
 let no_buffers_menu=1
-colorscheme tender
 
 " Better command line completion
 set wildmenu
