@@ -147,6 +147,7 @@ set ruler
 set number
 
 let no_buffers_menu=1
+colorscheme tender
 
 " Better command line completion
 set wildmenu
@@ -219,7 +220,7 @@ if exists("*fugitive#statusline")
 endif
 
 " vim-airline
-let g:airline_theme = 'onedark'
+let g:airline_theme = 'tender'
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
