@@ -11,7 +11,7 @@ else
 endif
 
 let g:vim_bootstrap_langs = ""
-let g:vim_bootstrap_editor = ""				" nvim or vim
+let g:vim_bootstrap_editor = "nvim"
 let g:vim_bootstrap_theme = "molokai"
 let g:vim_bootstrap_frams = ""
 
@@ -49,8 +49,12 @@ Plug 'dense-analysis/ale'
 Plug 'Yggdroot/indentLine'
 Plug 'editor-bootstrap/vim-bootstrap-updater'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :GBrowse
+Plug 'folke/zen-mode.nvim'
 Plug 'tomasr/molokai'
-
+Plug 'chriskempson/base16-vim'
+Plug 'tomasr/molokai'
+Plug 'tomasiser/vim-code-dark'
+Plug 'jacoborus/tender'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -142,8 +146,6 @@ set ruler
 set number
 
 let no_buffers_menu=1
-colorscheme molokai
-
 
 " Better command line completion
 set wildmenu
@@ -216,7 +218,7 @@ if exists("*fugitive#statusline")
 endif
 
 " vim-airline
-let g:airline_theme = 'powerlineish'
+let g:airline_theme = 'onedark'
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#ale#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
