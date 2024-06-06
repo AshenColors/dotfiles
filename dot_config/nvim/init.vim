@@ -49,8 +49,9 @@ Plug 'dense-analysis/ale'
 Plug 'Yggdroot/indentLine'
 Plug 'editor-bootstrap/vim-bootstrap-updater'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :GBrowse
+
+" Themes
 Plug 'folke/zen-mode.nvim'
-Plug 'tomasr/molokai'
 Plug 'chriskempson/base16-vim'
 Plug 'tomasr/molokai'
 Plug 'tomasiser/vim-code-dark'
