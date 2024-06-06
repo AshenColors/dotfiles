@@ -55,7 +55,6 @@ Plug 'folke/zen-mode.nvim'
 Plug 'chriskempson/base16-vim'
 Plug 'tomasr/molokai'
 Plug 'tomasiser/vim-code-dark'
-Plug 'jacoborus/tender'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
