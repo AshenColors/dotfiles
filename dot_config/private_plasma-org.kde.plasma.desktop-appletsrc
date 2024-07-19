@@ -147,24 +147,12 @@ popupWidth=528
 [Containments][26][Applets][52][Configuration][General]
 migrated=true
 
-[Containments][26][Applets][62]
+[Containments][26][Applets][65]
 immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][26][Applets][64]
-immutability=1
-plugin=org.kde.plasma.colorpicker
-
-[Containments][26][Applets][64][Configuration]
-PreloadWeight=70
-popupHeight=324
-popupWidth=324
-
-[Containments][26][Applets][64][Configuration][General]
-history=#dfdfdf
+plugin=org.kde.plasma.marginsseparator
 
 [Containments][26][General]
-AppletOrder=62;64;31;52;51;45;46
+AppletOrder=31;52;51;65;45;46
 
 [Containments][32]
 activityId=
@@ -197,7 +185,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][32][Applets][36][Configuration]
-PreloadWeight=65
+PreloadWeight=85
 
 [Containments][32][Applets][37]
 immutability=1
@@ -264,7 +252,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][32][Applets][48][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][32][Applets][49]
 immutability=1

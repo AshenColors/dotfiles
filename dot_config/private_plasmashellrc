@@ -44,9 +44,6 @@ visibilityUnit=2024
 [Applets][59][Configuration][WeatherStation]
 source=wettercom|weather|Island Heights, New Jersey, US|US0NJ0233;Island Heights
 
-[PlasmaTransientsConfig]
-PreloadWeight=42
-
 [PlasmaViews][Panel 2]
 floating=0
 panelLengthMode=1
