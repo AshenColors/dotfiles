@@ -5,8 +5,8 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometries-1920x1080=Applet-54:1744,896,176,80,90;
-ItemGeometriesHorizontal=Applet-54:1744,896,176,80,90;
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
 activityId=07579da0-aee4-4c9f-9c2a-b4437260df77
 formfactor=0
 immutability=1
@@ -14,19 +14,6 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
-
-[Containments][1][Applets][54]
-immutability=1
-plugin=org.kde.plasma.binaryclock
-
-[Containments][1][Applets][54][Configuration]
-PreloadWeight=55
-popupHeight=400
-popupWidth=560
-
-[Containments][1][Applets][54][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
 
 [Containments][1][General]
 ToolBoxButtonState=topcenter
