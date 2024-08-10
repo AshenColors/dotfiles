@@ -1,0 +1,4 @@
+{{- if ne .chezmoi.hostname "cerulean-ublue" }}
+plasmashellrc
+plasma-org.kde.plasma.desktop-appletsrc
+{{end}}
