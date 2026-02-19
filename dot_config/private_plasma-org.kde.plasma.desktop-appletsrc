@@ -5,8 +5,8 @@ RightButton;NoModifier=org.kde.contextmenu
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
-ItemGeometries-1920x1080=Applet-68:16,960,112,64,0;
-ItemGeometriesHorizontal=Applet-68:16,960,112,64,0;
+ItemGeometries-1920x1080=Applet-68:16,944,112,64,0;
+ItemGeometriesHorizontal=Applet-68:16,944,112,64,0;
 activityId=07579da0-aee4-4c9f-9c2a-b4437260df77
 formfactor=0
 immutability=1
@@ -20,13 +20,16 @@ immutability=1
 plugin=org.kde.plasma.colorpicker
 
 [Containments][1][Applets][68][Configuration]
-PreloadWeight=75
-popupHeight=324
+PreloadWeight=85
+popupHeight=325
 popupWidth=324
 
 [Containments][1][Applets][68][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
+
+[Containments][1][Applets][68][Configuration][General]
+history=#06a6f2,#4a7d9a
 
 [Containments][1][ConfigDialog]
 DialogHeight=540
@@ -63,7 +66,7 @@ DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
 groupedTaskVisualization=1
-launchers=preferred://filemanager,applications:org.gnome.Ptyxis.desktop,applications:dev.vencord.Vesktop.desktop,file:///var/lib/flatpak/exports/share/applications/org.mozilla.firefox.desktop,applications:steam.desktop
+launchers=applications:org.gnome.Ptyxis.desktop,preferred://filemanager,applications:dev.vencord.Vesktop.desktop,applications:steam.desktop,file:///var/lib/flatpak/exports/share/applications/org.mozilla.firefox.desktop,applications:io.github.ungoogled_software.ungoogled_chromium.flextop.chrome-ckffilndihhcgblgkinkgbmdlklpadad-Default.desktop
 
 [Containments][2][Applets][61]
 immutability=1
@@ -163,7 +166,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][26][Applets][31][Applets][41][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][26][Applets][31][Applets][42]
 immutability=1
@@ -223,7 +226,7 @@ immutability=1
 plugin=org.kde.plasma.weather
 
 [Containments][26][Applets][31][Applets][59][Configuration]
-PreloadWeight=5
+PreloadWeight=50
 configMigrated=true
 
 [Containments][26][Applets][31][Applets][59][Configuration][Appearance]
@@ -241,7 +244,9 @@ temperatureUnit=6002
 visibilityUnit=2024
 
 [Containments][26][Applets][31][Applets][59][Configuration][WeatherStation]
-source=wettercom|weather|Island Heights, New Jersey, US|US0NJ0233;Island Heights
+placeDisplayName=Island Heights, New Jersey, US
+placeInfo=place|Island Heights, New Jersey, US|extra|US0NJ0233;Island Heights
+provider=wettercom
 
 [Containments][26][Applets][31][Applets][66]
 immutability=1
@@ -258,9 +263,9 @@ DialogWidth=720
 PreloadWeight=100
 
 [Containments][26][Applets][31][General]
-extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.keyboardlayout,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.printmanager,dev.jhyub.supergfxctl,org.kde.plasma.clipboard,org.kde.plasma.diskquota,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.weather,org.kde.plasma.vault
+extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.keyboardlayout,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.diskquota,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.weather,org.kde.plasma.vault,dev.jhyub.supergfxctl
 hiddenItems=org.kde.plasma.notifications,indicator-solaar,steam,Xwayland Video Bridge_pipewireToXProxy,xdg-desktop-portal-kde,chrome_status_icon_1,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.keyboardlayout,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.printmanager,dev.jhyub.supergfxctl,org.kde.plasma.clipboard,org.kde.plasma.diskquota,org.kde.plasma.manage-inputmethod,org.kde.plasma.volume,org.kde.plasma.vault
-knownItems=org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,dev.jhyub.supergfxctl,org.kde.plasma.weather
+knownItems=org.kde.kdeconnect,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.brightness,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.printmanager,org.kde.plasma.vault,org.kde.plasma.volume,org.kde.plasma.weather,dev.jhyub.supergfxctl
 scaleIconsToFit=true
 shownItems=org.kde.plasma.weather
 
@@ -318,7 +323,23 @@ plugin=org.kde.plasma.marginsseparator
 [Containments][26][General]
 AppletOrder=31;52;51;65;45;46
 
-[Containments][69]
+[Containments][73]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=0
+location=4
+plugin=org.kde.panel
+wallpaperplugin=org.kde.image
+
+[Containments][73][Applets][74]
+immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][73][General]
+AppletOrder=74
+
+[Containments][75]
 activityId=07579da0-aee4-4c9f-9c2a-b4437260df77
 formfactor=0
 immutability=1
@@ -327,9 +348,9 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][69][Wallpaper][org.kde.image][General]
+[Containments][75][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/convergence.jxl
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=
+screenMapping=desktop:/Loadouts - 7NA AUX SOP DRAFT.pdf,0,07579da0-aee4-4c9f-9c2a-b4437260df77,desktop:/Nuclear Option Mod Manager.exe,0,07579da0-aee4-4c9f-9c2a-b4437260df77,desktop:/7NA-AUX-SOP_DRAFT_20260212_redacted(1).pdf,0,07579da0-aee4-4c9f-9c2a-b4437260df77,desktop:/7NA-AUX-SOP-DRAFT.zip,0,07579da0-aee4-4c9f-9c2a-b4437260df77,desktop:/heartland,0,07579da0-aee4-4c9f-9c2a-b4437260df77,desktop:/Print Site - 7NA AUX SOP DRAFT.pdf,0,07579da0-aee4-4c9f-9c2a-b4437260df77,desktop:/maritime_directions.pdf,0,07579da0-aee4-4c9f-9c2a-b4437260df77
